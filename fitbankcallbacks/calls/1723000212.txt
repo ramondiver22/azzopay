@@ -1,0 +1,17 @@
+ ============================================================================ 
+ Request 
+ ============================================================================ 
+
+curl --location 'https://apiv2.payments.fitbank.com.br/main/execute/GenerateDynamicPixQRCodeDueDate'  --header 'Accept: application/json'  --header 'Content-Type: application/json'  --data '{"Method":"GenerateDynamicPixQRCodeDueDate","PartnerId":"1447","BusinessUnitId":"1517","PixKey":"363f62fe-0201-4eac-a4c8-4c4dc6af60eb","TaxNumber":"49775544000114","PayerTaxNumber":"10909396981","PayerName":"Gabriel Soares Pedroso","PrincipalValue":"10.00","DueDate":"2024-08-08","ExpirationDate":"2024-08-08","Address":{"AddressLine":"Rua Julio Conceicao, 92","AddressLine2":"","ZipCode":"01126-000","Neighborhood":"Bom Retiro","CityName":"Sao Paulo","State":"Sao Paulo","AddressType":1,"Country":"Brasil","Complement":"","Reference":""},"ChangeType":0,"Bank":"450","BankBranch":"0001","BankAccount":"4810913608","BankAccountDigit":"1"}'
+
+ ============================================================================ 
+ Response 
+ ============================================================================ 
+
+{"Success":"false","Message":"ISE0030- O IP 89.117.148.205 não está autorizado a efetuar requisições","Validation":[]}
+
+ ============================================================================ 
+ Response Headers 
+ ============================================================================ 
+
+{"url":"https:\/\/apiv2.payments.fitbank.com.br\/main\/execute\/GenerateDynamicPixQRCodeDueDate","content_type":"application\/json; charset=utf-8","http_code":200,"header_size":475,"request_size":981,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":1.040647,"namelookup_time":0.271671,"connect_time":0.289959,"pretransfer_time":0.398177,"size_upload":637,"size_download":122,"speed_download":117,"speed_upload":612,"download_content_length":122,"upload_content_length":637,"starttransfer_time":1.040593,"redirect_time":0,"redirect_url":"","primary_ip":"18.160.102.45","certinfo":[],"primary_port":443,"local_ip":"89.117.148.205","local_port":40662,"http_version":2,"protocol":2,"ssl_verifyresult":0,"scheme":"HTTPS","appconnect_time_us":398100,"connect_time_us":289959,"namelookup_time_us":271671,"pretransfer_time_us":398177,"redirect_time_us":0,"starttransfer_time_us":1040593,"total_time_us":1040647}

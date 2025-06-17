@@ -1,0 +1,17 @@
+ ============================================================================ 
+ Request 
+ ============================================================================ 
+
+curl --location 'https://sandboxapi.fitbank.com.br/main/execute'  --header 'Accept: application/json'  --header 'Authorization: Basic NGVkZDU4MGItYjhmNi00Y2JiLWI4MzctOWZmNmZiMDU4YjZhOmRkMGZkMmYxLTE1ZWEtNGI4Zi1iZjhhLTM5MWEzMGZmYzFiMg=='  --header 'Content-Type: application/json'  --data '{"Method":"GetInfosPixKey","PartnerId":"1459","BusinessUnitId":"2317","PixKey":"49775544000114","PixKeyType":"cnpj","TaxNumber":"49775544000114"}'
+
+ ============================================================================ 
+ Response 
+ ============================================================================ 
+
+{"Success":"true","Message":"ISI0001 - Método executado com sucesso","SearchProtocol":165686,"Infos":{"ReceiverBankName":"Fitbank Pagamentos Eletronicos","ReceiverName":"G SOLUCOES E CONSULTORIA LTDA","ReceiverISPB":"13203354","ReceiverBank":"450","ReceiverBankBranch":"1","ReceiverBankAccount":"17820451","ReceiverBankAccountDigit":"1","ReceiverAccountType":"0","PixKeyType":"1","PixKeyValue":"49775544000114","ReceiverTaxNumber":"49775544000114"}}
+
+ ============================================================================ 
+ Response Headers 
+ ============================================================================ 
+
+{"url":"https:\/\/sandboxapi.fitbank.com.br\/main\/execute","content_type":"application\/json; charset=utf-8","http_code":200,"header_size":586,"request_size":443,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":0.745103,"namelookup_time":0.114331,"connect_time":0.149018,"pretransfer_time":0.312525,"size_upload":145,"size_download":450,"speed_download":604,"speed_upload":194,"download_content_length":450,"upload_content_length":145,"starttransfer_time":0.745041,"redirect_time":0,"redirect_url":"","primary_ip":"2600:9000:20bb:9600:13:3473:a980:93a1","certinfo":[],"primary_port":443,"local_ip":"2804:14d:4e80:4078:5c10:409d:7a82:fc9b","local_port":52445,"http_version":2,"protocol":2,"ssl_verifyresult":0,"scheme":"HTTPS","appconnect_time_us":312405,"connect_time_us":149018,"namelookup_time_us":114331,"pretransfer_time_us":312525,"redirect_time_us":0,"starttransfer_time_us":745041,"total_time_us":745103}

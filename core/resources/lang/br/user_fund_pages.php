@@ -1,0 +1,42 @@
+<?php
+
+return [
+    "fund_bank_transfer" => "Transferência Bancária",
+    "fund_amount" => "Total",
+    "fund_transfer_notes" => "Observações da transferência",
+    "fund_transaction_Details" => "Detalhes da Transação",
+    "fund_proof_of_payment" => "Comprovante",
+    "fund_choose_screenshot" => "Selecionar imagem",
+    "fund_proceed" => "Continuar",
+    "fund_bank_details" => "Detalhes do banco",
+    "fund_name" => "Nome",
+    "fund_bank" => "Banco",
+    "fund_address" => "Endereço",
+    "fund_swift_code" => "Código Swift",
+    "fund_iban_code" => "Código Iban",
+    "fund_account_number" => "Tipo de conta",
+    "fund_card" => "Cartão",
+    "fund_pay" => "Pagar",
+    "fund_transfer" => "Transferir",
+    "fund_ive_sent_money" => "Já enviei o dinheiro",
+    "fund_crypto_currency" => "Cripto Moeda",
+    "fund_other" => "Outros",
+    "fund_paypal" => "Paypal",
+    "fund_paystack" => "Paystack",
+    "fund_flutter" => "Flutter",
+    "fund_bitcoin" => "Bitcoin",
+    "fund_ethereum" => "Ethereum",
+    "fund_charge" => "Taxa",
+    "fund_total" => "Total",
+    "fund_confirm" => "Confirmar",
+
+
+    "fund_pix" => "Pix",
+    "fund_pay_with_pix" => "Pagar com Pix",
+    "fund_pay_with_pix_toastr_title" => "Pagar com Pix",
+    "fund_pay_with_pix_instrunctions" => "Utilize o aplicativo do seu banco para ler o QRCode abaixo ou copie e cole o código do campo no aplicativo do seu banco para efetuar o pagamento e realizar a recarga de saldo.",
+
+    "fund_boleto" => "Boleto",
+    "fund_pay_with_boleto_instructions" => "Utilize os dados abaixo para realizar o pagamento.",
+    "fund_pay_with_boleto" => "Pagar com Boleto",
+];

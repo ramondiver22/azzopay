@@ -1,0 +1,17 @@
+ ============================================================================ 
+ Request 
+ ============================================================================ 
+
+curl --location 'https://sandboxapi.fitbank.com.br/main/execute/GenerateDynamicPixQRCodeDueDate'  --header 'Accept: application/json'  --header 'Authorization: Basic NGVkZDU4MGItYjhmNi00Y2JiLWI4MzctOWZmNmZiMDU4YjZhOmRkMGZkMmYxLTE1ZWEtNGI4Zi1iZjhhLTM5MWEzMGZmYzFiMg=='  --header 'Content-Type: application/json'  --data '{"Method":"GenerateDynamicPixQRCodeDueDate","PartnerId":"1459","BusinessUnitId":"2317","PixKey":"49775544000114","TaxNumber":"49775544000114","PayerTaxNumber":"05070222546","PayerName":"Vagner ogaca Carvalho","PrincipalValue":"10.30","DueDate":"2024-03-22","ExpirationDate":"2024-03-22","Address":{"AddressLine":"Rua Niter\u00f3i","AddressLine2":"","ZipCode":"60731-305","Neighborhood":"Canindezinho","CityCode":"451","CityName":"Fortaleza","State":"Cear\u00e1","AddressType":1,"Country":"Brasil","Complement":"Apto 01","Reference":"Pr\u00f3ximo ao mercado"},"ChangeType":0,"Bank":"450","BankBranch":"0001","BankAccount":"17820451","BankAccountDigit":"1"}'
+
+ ============================================================================ 
+ Response 
+ ============================================================================ 
+
+{"Success":"true","Message":"ISI0001 - Método executado com sucesso","DocumentNumber":398802}
+
+ ============================================================================ 
+ Response Headers 
+ ============================================================================ 
+
+{"url":"https:\/\/sandboxapi.fitbank.com.br\/main\/execute\/GenerateDynamicPixQRCodeDueDate","content_type":"application\/json; charset=utf-8","http_code":200,"header_size":585,"request_size":985,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":0.791261,"namelookup_time":0.055318,"connect_time":0.090477,"pretransfer_time":0.220914,"size_upload":655,"size_download":94,"speed_download":118,"speed_upload":828,"download_content_length":94,"upload_content_length":655,"starttransfer_time":0.791224,"redirect_time":0,"redirect_url":"","primary_ip":"2600:9000:20bb:4200:13:3473:a980:93a1","certinfo":[],"primary_port":443,"local_ip":"2804:14d:4e80:4078:f5ed:8cae:e9b:f602","local_port":61323,"http_version":2,"protocol":2,"ssl_verifyresult":0,"scheme":"HTTPS","appconnect_time_us":220817,"connect_time_us":90477,"namelookup_time_us":55318,"pretransfer_time_us":220914,"redirect_time_us":0,"starttransfer_time_us":791224,"total_time_us":791261}

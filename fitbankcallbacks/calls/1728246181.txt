@@ -1,0 +1,17 @@
+ ============================================================================ 
+ Request 
+ ============================================================================ 
+
+curl --location 'https://apiv2.payments.fitbank.com.br/main/execute'  --header 'Accept: application/json'  --header 'Content-Type: application/json'  --data '{"Method":"GetInfosPixKey","PartnerId":"1447","BusinessUnitId":"1517","PixKey":"9bbd6371-1bd9-40c8-8295-7f01d9af857a","PixKeyType":"evp","TaxNumber":"49775544000114"}'
+
+ ============================================================================ 
+ Response 
+ ============================================================================ 
+
+{"Success":"false","Message":"ISE0030- O IP 157.173.111.128 não está autorizado a efetuar requisições","Validation":[]}
+
+ ============================================================================ 
+ Response Headers 
+ ============================================================================ 
+
+{"url":"https:\/\/apiv2.payments.fitbank.com.br\/main\/execute","content_type":"application\/json; charset=utf-8","http_code":200,"header_size":475,"request_size":478,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":0.945327,"namelookup_time":0.06359,"connect_time":0.068125,"pretransfer_time":0.158985,"size_upload":166,"size_download":123,"speed_download":130,"speed_upload":175,"download_content_length":123,"upload_content_length":166,"starttransfer_time":0.945251,"redirect_time":0,"redirect_url":"","primary_ip":"13.227.219.120","certinfo":[],"primary_port":443,"local_ip":"157.173.111.128","local_port":36006,"http_version":2,"protocol":2,"ssl_verifyresult":0,"scheme":"HTTPS","appconnect_time_us":158920,"connect_time_us":68125,"namelookup_time_us":63590,"pretransfer_time_us":158985,"redirect_time_us":0,"starttransfer_time_us":945251,"total_time_us":945327,"effective_method":"POST"}

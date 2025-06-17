@@ -1,0 +1,1 @@
+{"pix":[{"endToEndId":"E60746948202103082223A7540Db1234","txid":"iJTtcl6huTu1bV3qRPwrEgUm4NrMmMO1bTq","valor":"1.50","horario":"2022-07-26-19.24.41","infoPagador":null}]}

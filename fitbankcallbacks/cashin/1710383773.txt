@@ -1,0 +1,108 @@
+Array
+(
+    [PHP_FCGI_CHILDREN] => 4
+    [PWD] => /Applications/MAMP/fcgi-bin
+    [SHLVL] => 0
+    [PHP_FCGI_MAX_REQUESTS] => 200
+    [__CF_USER_TEXT_ENCODING] => 0x1F5:0x0:0x0
+    [ORIG_SCRIPT_NAME] => /fcgi-bin/php7.4.21.fcgi
+    [ORIG_PATH_TRANSLATED] => /Users/mac/Sites/cronospay-v3/index.php
+    [ORIG_PATH_INFO] => /index.php
+    [ORIG_SCRIPT_FILENAME] => /Applications/MAMP/fcgi-bin/php7.4.21.fcgi
+    [SCRIPT_NAME] => /index.php
+    [REQUEST_URI] => /fitbank/callbacks
+    [QUERY_STRING] => 
+    [REQUEST_METHOD] => POST
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REDIRECT_URL] => /index.php
+    [REMOTE_PORT] => 53106
+    [SCRIPT_FILENAME] => /Users/mac/Sites/cronospay-v3/index.php
+    [SERVER_ADMIN] => you@example.com
+    [CONTEXT_DOCUMENT_ROOT] => /Applications/MAMP/fcgi-bin/
+    [CONTEXT_PREFIX] => /fcgi-bin/
+    [REQUEST_SCHEME] => http
+    [DOCUMENT_ROOT] => /Users/mac/Sites/cronospay-v3
+    [REMOTE_ADDR] => 127.0.0.1
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [SERVER_NAME] => cronospayv3.com.br
+    [SERVER_SOFTWARE] => Apache/2.4.46 (Unix) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2u mod_wsgi/3.5 Python/2.7.13
+    [SERVER_SIGNATURE] => 
+    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+    [HTTP_COOKIE] => cronospay_session=eyJpdiI6InZZMG01U2tlZ0lmWUprVFhnVFNWT3c9PSIsInZhbHVlIjoiNUV0SllISHBpUDIvTXRtbFRGenF4QjFESG95eDhhVGQvU1NGR01kdzNZL25VSjJUc25mRWFXYXgwdFJLUUN6NmtuNFV5VHJKaUVNR1JvUGc5TW1Pc3loUWVmc3JVR1JPYmYyZkZ6Umhva0lQb3hSMFNEenh4UXN2NGx3Y2NZanAiLCJtYWMiOiI1ZjhlZjhiOTM4YmM0NTE1N2MzNDFiMzUwZDU2YmQ2M2VhMjFjODRiMTNkYWM5NTBjZGMxMzFlMDkzNDA5YTRhIiwidGFnIjoiIn0%3D
+    [CONTENT_LENGTH] => 1327
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_HOST] => cronospayv3.com.br
+    [HTTP_POSTMAN_TOKEN] => 81735c7c-6984-4853-813b-3116bc40143b
+    [HTTP_ACCEPT] => */*
+    [HTTP_USER_AGENT] => PostmanRuntime/7.36.3
+    [CONTENT_TYPE] => application/json
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_HANDLER] => php-fastcgi
+    [REDIRECT_HTTP_AUTHORIZATION] => Basic UFVCLTRpaktLdld5dDBWUnEzbFYzSWdwRVdyWVlJMXF1ckRDOlNFQy1DdDFNU3J5RWFOZUhvRWVZNW9iV3NIcFRycW1mT2RIeQ==
+    [REDIRECT_REDIRECT_STATUS] => 200
+    [REDIRECT_REDIRECT_HTTP_AUTHORIZATION] => Basic UFVCLTRpaktLdld5dDBWUnEzbFYzSWdwRVdyWVlJMXF1ckRDOlNFQy1DdDFNU3J5RWFOZUhvRWVZNW9iV3NIcFRycW1mT2RIeQ==
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /index.php
+    [REQUEST_TIME_FLOAT] => 1710383771.2463
+    [REQUEST_TIME] => 1710383771
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+    [APP_NAME] => Cronospay
+    [APP_ENV] => local
+    [APP_KEY] => base64:Uqfm/jNWmytNAz3NthRuLSxTpYw/sCXRLYgAT7GihJo=
+    [APP_DEBUG] => true
+    [APP_URL] => http://cronospayv3.com.br
+    [LOG_CHANNEL] => stack
+    [LOG_LEVEL] => debug
+    [DB_CONNECTION] => mysql
+    [DB_HOST] => 127.0.0.1
+    [DB_PORT] => 8889
+    [DB_DATABASE] => onnixpay
+    [DB_USERNAME] => root
+    [DB_PASSWORD] => root
+    [BROADCAST_DRIVER] => log
+    [CACHE_DRIVER] => file
+    [QUEUE_CONNECTION] => sync
+    [SESSION_DRIVER] => file
+    [SESSION_LIFETIME] => 120
+    [MEMCACHED_HOST] => 127.0.0.1
+    [REDIS_HOST] => 127.0.0.1
+    [REDIS_PASSWORD] => null
+    [REDIS_PORT] => 6379
+    [MAIL_MAILER] => smtp
+    [MAIL_HOST] => smtp.gmail.com
+    [MAIL_PORT] => 587
+    [MAIL_USERNAME] => sharkpay.br@gmail.com
+    [MAIL_PASSWORD] => pplqbxjunhrtrecq
+    [MAIL_ENCRYPTION] => tls
+    [MAIL_FROM_ADDRESS] => sharkpay.br@gmail.com
+    [MAIL_FROM_NAME] => Cronospay
+    [AWS_ACCESS_KEY_ID] => 
+    [AWS_SECRET_ACCESS_KEY] => 
+    [AWS_DEFAULT_REGION] => us-east-1
+    [AWS_BUCKET] => 
+    [PUSHER_APP_ID] => 
+    [PUSHER_APP_KEY] => 
+    [PUSHER_APP_SECRET] => 
+    [PUSHER_APP_CLUSTER] => mt1
+    [MIX_PUSHER_APP_KEY] => 
+    [MIX_PUSHER_APP_CLUSTER] => mt1
+    [NOCAPTCHA_SECRET] => 
+    [NOCAPTCHA_SITEKEY] => 
+    [PUBLIC_KEY] => FLWPUBK_TEST-SANDBOXDEMOKEY-X
+    [SECRET_KEY] => FLWSECK_TEST-SANDBOXDEMOKEY-X
+    [ENCRYPTION_KEY] => FLWSECK_TEST74e0b6c7db0e
+    [ENV] => staging
+    [SECRET_HASH] => blabla
+)
+
+
+
+{"FromName":"Anna Gomes Ferreira","FromTaxNumber":"07107812872","FromBankNumber":"870","FromBankBranch":"1","FromBankAccount":"3479358","FromISPB":"3316358","FromBankAccountDigit":"1","ToName":"Maria Gomes Ferreira","ToTaxNumber":"75412109678","ToBankNumber":"457","ToISPB":"3916398","ToBankBranch":"0001","ToBankAccount":"18786513","ToBankAccountDigit":"8","CustomerMessage":null,"Value":1,"TransferDate":"2022-11-25T14:35:17.833","ReceiptUrl":"https:\/\/receipt.fitbank.com.br\/receiptapi\/pdf?filename=2022-11-25\/zj422ucw.pdf","EndToEndId":"E22896431202211251735Bzp9LBUPyJq","QRCodeInfos":null,"InitiationType":"PixKey","Tags":null,"FromSPB":null,"ToSPB":null,"ReceiverPixKey":null,"PartnerId":678,"DocumentNumber":"397717","Identifier":null,"EntryId":2215162652,"Status":"Paid","TotalValue":0,"PaymentDate":null,"FineInterest":null,"DiscountValue":null,"IofValue":null,"PaidValue":null,"OtherValues":null,"CreditDate":null,"OccurrenceDate":null,"URL":null,"BankCode":null,"BankBranch":null,"BankAccount":null,"BankAccountDigit":null,"ReturnCode":null,"ReturnMessage":null,"PaymentProtocol":null,"Method":"PixIn","BusinessUnitId":494}
+

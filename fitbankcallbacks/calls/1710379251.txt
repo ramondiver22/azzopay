@@ -1,0 +1,17 @@
+ ============================================================================ 
+ Request 
+ ============================================================================ 
+
+curl --location 'https://sandboxapi.fitbank.com.br/main/execute'  --header 'Accept: application/json'  --header 'Authorization: Basic NGVkZDU4MGItYjhmNi00Y2JiLWI4MzctOWZmNmZiMDU4YjZhOmRkMGZkMmYxLTE1ZWEtNGI4Zi1iZjhhLTM5MWEzMGZmYzFiMg=='  --header 'Content-Type: application/json'  --data '{"Method":"GeneratePixOut","PartnerId":"1459","BusinessUnitId":"2317","TaxNumber":"49775544000114","Bank":"450","BankBranch":"0001","BankAccount":"17820451","BankAccountDigit":"1","ToTaxNumber":"49775544000114","ToName":"G SOLUCOES E CONSULTORIA LTDA","ToBank":"450","ToISPB":"13203354","ToBankBranch":"1","ToBankAccount":"17820451","ToBankAccountDigit":"1","Value":"10.00","PixKey":"49775544000114","PixKeyType":"1","AccountType":"0","Identifier":"PAYMENT-6375211710379250","PaymentDate":"2024-03-13","SearchProtocol":165688,"Description":"Saque de testes."}'
+
+ ============================================================================ 
+ Response 
+ ============================================================================ 
+
+{"Success":"true","Message":"Solicitação para pagamento PIX recebida com sucesso.","DocumentNumber":7728338,"Url":"https://sandboxreceipt.fitbank.com.br/receipt/pdf?filename=2024-03-13/2ko1foo3.pdf"}
+
+ ============================================================================ 
+ Response Headers 
+ ============================================================================ 
+
+{"url":"https:\/\/sandboxapi.fitbank.com.br\/main\/execute","content_type":"application\/json; charset=utf-8","http_code":200,"header_size":586,"request_size":857,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":1.536788,"namelookup_time":0.00657,"connect_time":0.170662,"pretransfer_time":0.485457,"size_upload":559,"size_download":201,"speed_download":130,"speed_upload":363,"download_content_length":201,"upload_content_length":559,"starttransfer_time":1.536752,"redirect_time":0,"redirect_url":"","primary_ip":"2600:9000:20bb:8e00:13:3473:a980:93a1","certinfo":[],"primary_port":443,"local_ip":"2804:14d:4e80:4078:5c10:409d:7a82:fc9b","local_port":52547,"http_version":2,"protocol":2,"ssl_verifyresult":0,"scheme":"HTTPS","appconnect_time_us":485153,"connect_time_us":170662,"namelookup_time_us":6570,"pretransfer_time_us":485457,"redirect_time_us":0,"starttransfer_time_us":1536752,"total_time_us":1536788}

@@ -1,0 +1,17 @@
+ ============================================================================ 
+ Request 
+ ============================================================================ 
+
+curl --location 'https://sandboxapi.fitbank.com.br/main/execute'  --header 'Accept: application/json'  --header 'Authorization: Basic NGVkZDU4MGItYjhmNi00Y2JiLWI4MzctOWZmNmZiMDU4YjZhOmRkMGZkMmYxLTE1ZWEtNGI4Zi1iZjhhLTM5MWEzMGZmYzFiMg=='  --header 'Content-Type: application/json'  --data '{"Method":"GetPixOutById","PartnerId":"1459","BusinessUnitId":"2317","DocumentNumber":7728338,"TaxNumber":"49775544000114","Bank":"450","BankBranch":"0001","BankAccount":"17820451","BankAccountDigit":"1"}'
+
+ ============================================================================ 
+ Response 
+ ============================================================================ 
+
+{"Success":"true","Message":"Método executado com sucesso.","Infos":{"DocumentNumber":7728338,"Identifier":"PAYMENT-6375211710379250","EndToEndId":"E5833825701789603132295872376021","FromName":"G SOLUCOES E CONSULTORIA LTDA","FromTaxNumber":"49775544000114","FromISPB":"13203354","FromBankCode":"450","FromBankBranch":"0001","FromBankAccount":"17820451","FromBankAccountDigit":"1","ToName":"G SOLUCOES E CONSULTORIA LTDA","ToTaxNumber":"49775544000114","ToISPB":"13203354","ToBankCode":"450","ToBankBranch":"0001","ToBankAccount":"17820451","ToBankAccountDigit":"1","Status":"Created","ErrorDescription":null,"ErrorCode":null,"RateValue":0.00,"TotalValue":10.00,"ReceiptUrl":"https://sandboxreceipt.fitbank.com.br/receipt/pdf?filename=2024-03-13/2ko1foo3.pdf","PaymentDate":"13/03/2024 22:20:50","Tags":[]}}
+
+ ============================================================================ 
+ Response Headers 
+ ============================================================================ 
+
+{"url":"https:\/\/sandboxapi.fitbank.com.br\/main\/execute","content_type":"application\/json; charset=utf-8","http_code":200,"header_size":586,"request_size":502,"filetime":-1,"ssl_verify_result":0,"redirect_count":0,"total_time":0.977885,"namelookup_time":0.018253,"connect_time":0.095549,"pretransfer_time":0.484212,"size_upload":204,"size_download":808,"speed_download":827,"speed_upload":208,"download_content_length":808,"upload_content_length":204,"starttransfer_time":0.977841,"redirect_time":0,"redirect_url":"","primary_ip":"2600:9000:20bb:9800:13:3473:a980:93a1","certinfo":[],"primary_port":443,"local_ip":"2804:14d:4e80:4078:5c10:409d:7a82:fc9b","local_port":52548,"http_version":2,"protocol":2,"ssl_verifyresult":0,"scheme":"HTTPS","appconnect_time_us":483224,"connect_time_us":95549,"namelookup_time_us":18253,"pretransfer_time_us":484212,"redirect_time_us":0,"starttransfer_time_us":977841,"total_time_us":977885}

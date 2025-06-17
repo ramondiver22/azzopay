@@ -1,0 +1,47 @@
+<?php
+
+return [
+    
+    // Dashboard strings
+    "earning_log" => "Histórico de recebíveis",
+    "no_earning_history" => "Nenhum histórico de ganhos",
+    "we_couldnt_find_any_log_to_this_account" => "Não encontramos nenhum histórico de ganhos para essa conta.",
+    "api_documentation" => "Documentação da API",
+    "our_documentation_need_to_integrate" => "Nossa documentação contém tudo o que você precisa para integrar ",
+    "in_your_website" => " em seu website.",
+    "your_keys" => "Suas chaves.",
+    "also_available_in" => "Também disponível em",
+    "settings_api_keys" => "Configurações > Chaves de API",
+    "public_key" => "Chave Pública",
+    "secret_key" => "Chave Secreta",
+    "revenue" => "Receita",
+    "total_payout" => "Total de saque",
+    "of_limit" => "de limite",
+    "upgrade_account" => "Upgrade sua conta",
+    "no_limit" => "Nenhum Limite",
+    "next_payout" => "Próximo saque",
+    "due" => "Vencimento",
+    "past_payouts" => "Saques anteriores",
+    "go_to_docs" => "Ir para os Docs",
+    
+    "home_paid" => "Paga",
+    "home_waiting_payment" => "Aguardando Pagamento",
+    "home_defaulter" => "Inadimplente",
+    "home_transactions_by_status" => "Transações por Status",
+    
+    "home_trasactions_number" => "Nº de transações",
+    "home_avg_ticket" => "Ticket médio",
+    "home_transactions_volume" => "Volume transacionado",
+    "home_payment_methods" => "Formas de pagamento",
+    "home_payment_brands" => "Bandeiras mais utilizadas",
+    "home_reason_for_refusal" => "Motivos de recusa",
+    "home_pix" => "Pix",
+    "home_credit_card" => "Cartão de Crédito",
+    "home_boleto" => "Boleto",
+    "home_mastercard" => "Mastercard",
+    "home_visa" => "Visa",
+    "home_elo" => "Elo",
+    "home_no_acquirer_configured" => "Sem adquirente configurado",
+    "home_issuer" => "Emissor",
+    "home_denied_by_anti_fraud" => "Negado pelo antifraude",
+];
